@@ -1,4 +1,5 @@
 #footer {
+    margin-top: 60px;
     padding: 60px 60px 60px 60px;
     background-color: whitesmoke;
     color: var(--black-code);
@@ -22,7 +23,8 @@
 }
 
 .footer_menu_link {
-    color: var(--black-code);;
+    color: var(--black-code);
+    ;
     text-decoration: none;
 }
 
