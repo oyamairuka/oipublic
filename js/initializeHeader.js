@@ -31,8 +31,8 @@ function initialize() {
         document.getElementById('sp_menu').appendChild(div);
     });
 
-    document.getElementById('header_phone_number').innerHTML = phoneNumber;
-    document.getElementById('contactButtonHeader').textContent = headerContactButtonCaption;
+    // document.getElementById('header_phone_number').innerHTML = phoneNumber;
+    // document.getElementById('contactButtonHeader').textContent = headerContactButtonCaption;
 }
 
 initialize();

@@ -1,7 +1,6 @@
 const menuList = [
     { "name": "ホーム", "path": "index.html" },
-    { "name": "とくちょう", "path": "index.html" },
-    // { "name": "とくちょう", "path": "feature.html" },
+    { "name": "とくちょう", "path": "feature.html" },
     // { "name": "サービス", "path": "service.html" },
     // { "name": "会社情報", "path": "company.html" },
 ];
