@@ -35,4 +35,9 @@ function initialize() {
     // document.getElementById('contactButtonHeader').textContent = headerContactButtonCaption;
 }
 
+// ロゴクリックでトップページに繊維
+function onHeaderLogoClicked() {
+    window.location.href = 'index.html';
+}
+
 initialize();
