@@ -1,0 +1,145 @@
+#header {
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+}
+
+#header_logo {
+    width: 100px;
+    height: 30px;
+    background-image: url("../img/btob_wireframe_coding_logo.png");
+    background-size: cover;
+}
+
+#header_menu {
+    margin: 0px;
+}
+
+#header_left_content {
+    width: 70%;
+}
+
+#header_right_content {
+    width: 30%;
+}
+
+#header_phone_number {
+    margin-right: 10px;
+}
+
+.header_menu_li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.header_menu_link {
+    color: black;
+    text-decoration: none;
+}
+
+/* スマホレイアウト時のメニュー設定ここから */
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: darkgray;
+}
+
+#menu_button {
+    display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+#menu_button>div {
+    width: 30px;
+    height: 2px;
+    background-color: #000000;
+    transform-origin: 0% 50%;
+    position: absolute;
+    top: 12px;
+    left: 25%;
+    transition: .3s;
+}
+
+#menu_button>div:nth-of-type(2) {
+    top: 22px;
+}
+
+#menu_button>div:nth-of-type(3) {
+    top: 32px;
+}
+
+.close_menu div {
+    left: 30%;
+    background-color: #ffffff !important;
+}
+
+.close_menu div:nth-of-type(1) {
+    transform: rotate(45deg);
+    width: 55%;
+}
+
+.close_menu div:nth-of-type(2) {
+    opacity: 0;
+}
+
+.close_menu div:nth-of-type(3) {
+    top: 32px;
+    transform: rotate(-45deg);
+    width: 55%;
+}
+
+.menu_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu_container_menu_text {
+    text-align: center;
+    height: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+.menu_container_menu_text>a {
+    text-decoration: none;
+    font-size: 15pt;
+    color: #ffffff;
+}
+
+/* スマホレイアウト時のメニュー設定ここまで */
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 850px) {
+
+    /* メニュー項目非表示 */
+    #header_menu {
+        display: none;
+    }
+
+    /* ヘッダーメニューの電話番号非表示 */
+    #header_phone_number {
+        display: none;
+    }
+
+    /* ヘッダーメニューのお問い合わせボタン非表示 */
+    #contactButtonHeader {
+        display: none;
+    }
+
+    /* メニューボタン表示 */
+    #menu_button {
+        display: block;
+        z-index: 9;
+    }
+}
+
+/* レスポンシブ設定ここまで */

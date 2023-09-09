@@ -1,0 +1,148 @@
+/* ホーム画面 */
+#home_top {
+    height: var(--top-banner-height);
+    padding: 50px 10px 50px 10px;
+    background-image: url("../img/btob_wireframe_coding_top.png");
+    background-size: cover;
+}
+
+#catchphrase {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#catchphraseEx {
+    margin: 20px 10px 20px 10px;
+    font-size: var(--font-size-small);
+    text-align: center;
+}
+
+#contactButtonTop {
+    width: 230px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+/* 特徴 */
+#home_feature {
+    padding: 70px 10px 0px 10px;
+}
+
+#feature_name {
+    text-align: center;
+}
+
+#feature_title {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#feature1 {
+    background-image: url("../img/btob_wireframe_coding_feature1.png");
+    background-size: cover;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+#feature2 {
+    background-image: url("../img/btob_wireframe_coding_feature2.png");
+    background-size: cover;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+#feature3 {
+    background-image: url("../img/btob_wireframe_coding_feature3.png");
+    background-size: cover;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+span[name="feature_no"] {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    display: block;
+}
+
+#featureButtonTop {
+    width: 200px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+/* サービス */
+#home_service {
+    padding: 70px 10px 0px 10px;
+}
+
+#service_name {
+    text-align: center;
+}
+
+#service_title {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#serviceButtonTop {
+    width: 200px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+#service1 {
+    background-color: whitesmoke;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+#service2 {
+    background-color: whitesmoke;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+#service3 {
+    background-color: whitesmoke;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 180px;
+}
+
+/* お問い合わせ */
+#home_contact {
+    background-color: whitesmoke;
+    padding: 50px 20px 50px 20px;
+}
+
+#contact_name {
+    text-align: center;
+}
+
+#contact_title {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contactButtonBottom {
+    width: 330px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header_style.css">
+    <link rel="stylesheet" href="css/footer_style.css">
+    <link rel="stylesheet" href="css/home_style.css">
+    <script src="js/menuConfig.js"></script>
+    <script src="js/HeaderConfig.js"></script>
+    <script src="js/footerConfig.js"></script>
+    <script src="js/homeConfig.js"></script>
+    <script src="js/initializeHeader.js" defer></script>
+    <script src="js/initializeFooter.js" defer></script>
+    <script src="js/initializeHome.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <title>ホーム</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header_container" class="left_row_container">
+            <div id="header_left_content" class="left_row_container">
+                <div id="header_logo"></div>
+                <ul id="header_menu">
+                </ul>
+            </div>
+            <div id="header_right_content" class="right_row_container">
+                <div id="header_phone_number"></div>
+                <div>
+                    <button type="button" id="contactButtonHeader" onclick="location.href='contact.html'"></button>
+                </div>
+                <div id="menu_button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="sp_menu" class="menu_container">
+            </div>
+        </div>
+    </div>
+    <div id="home_top">
+        <div class="column_container">
+            <span id="catchphrase"></span>
+            <span id="catchphraseEx"></span>
+        </div>
+        <div class="center_box">
+            <button type="button" id="contactButtonTop" onclick="location.href='contact.html'"></button>
+        </div>
+    </div>
+    <div id="home_feature">
+        <div class="column_container">
+            <span id="feature_name"></span>
+            <span id="feature_title"></span>
+            <div class="row_container">
+                <div id="feature1" class="small_margin">
+                    <span name="feature_no">1</span>
+                    <br>
+                    <span id="feature_caption1" class="center_box"></span>
+                </div>
+                <div id="feature2" class="small_margin">
+                    <span name="feature_no">2</span>
+                    <br>
+                    <span id="feature_caption2" class="center_box"></span>
+                </div>
+                <div id="feature3" class="small_margin">
+                    <span name="feature_no">3</span>
+                    <br>
+                    <span id="feature_caption3" class="center_box"></span>
+                </div>
+            </div>
+            <div class="center_box">
+                <button type="button" id="featureButtonTop" onclick="location.href='feature.html'"></button>
+            </div>
+        </div>
+    </div>
+    <div id="home_service">
+        <div class="column_container">
+            <span id="service_name"></span>
+            <span id="service_title"></span>
+            <div class="row_container">
+                <div id="service1" class="small_margin">
+                    <span id="service_caption1" class="center_box"></span>
+                </div>
+                <div id="service2" class="small_margin">
+                    <span id="service_caption2" class="center_box"></span>
+                </div>
+                <div id="service3" class="small_margin">
+                    <span id="service_caption3" class="center_box"></span>
+                </div>
+            </div>
+            <div class="center_box">
+                <button type="button" id="serviceButtonTop" onclick="location.href='service.html'"></button>
+            </div>
+        </div>
+    </div>
+    <div id="home_contact">
+        <div class="column_container">
+            <span id="contact_name"></span>
+            <span id="contact_title"></span>
+            <div class="center_box">
+                <button type="button" id="contactButtonBottom" onclick="location.href='contact.html'"></button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_container" class="left_row_container">
+            <div class="column_container footer_column">
+                <div id="header_logo"></div>
+                <div id="footer_company_info"></div>
+            </div>
+            <div id="footer_menu" class="column_container footer_column_unit">
+            </div>
+            <div id="footer_additional_menu" class="column_container footer_column_unit">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+#footer {
+    padding: 60px 60px 60px 60px;
+    background-color: black;
+    color: white;
+}
+
+#footer_company_info {
+    margin-top: 20px;
+}
+
+.footer_column {
+    width: 60%;
+}
+
+.footer_column_unit {
+    width: 20%;
+}
+
+.footer_menu_li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.footer_menu_link {
+    color: white;
+    text-decoration: none;
+}
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 850px) {
+
+    /* メニュー項目非表示 */
+    #footer_menu {
+        display: none;
+    }
+
+    #footer_additional_menu {
+        display: none;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+}
+
+/* レスポンシブ設定ここまで */
