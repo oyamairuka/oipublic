@@ -1,4 +1,44 @@
+:root {
+    --top-banner-height: 400px;
+    --font-size-large: 24px;
+    --font-size-small: 14px;
+}
+
 body {
     /*セレクタに font-family を指定*/
     font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+
+.center_box {
+    display: block;
+    text-align: center;
+}
+
+.small_margin {
+    margin: 10px 15px 10px 15px;
+}
+
+/* Flexbox設定 */
+.column_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left_row_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.right_row_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }

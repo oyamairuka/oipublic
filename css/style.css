@@ -4,10 +4,6 @@
     --font-size-small: 14px;
 }
 
-body {
-    font: medium/170% "メイリオ";
-}
-
 .center_box {
     display: block;
     text-align: center;
