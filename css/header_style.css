@@ -32,7 +32,7 @@
 }
 
 .header_menu_link {
-    color: black;
+    color: var(--black-code);
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@
     display: none;
     text-align: center;
     vertical-align: middle;
-    background-color: darkgray;
+    background-color: #99D9EA;
 }
 
 #menu_button {
@@ -112,7 +112,7 @@
 .menu_container_menu_text>a {
     text-decoration: none;
     font-size: 15pt;
-    color: #ffffff;
+    color: var(--black-code);
 }
 
 /* スマホレイアウト時のメニュー設定ここまで */

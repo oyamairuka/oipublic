@@ -1,7 +1,7 @@
 #footer {
     padding: 60px 60px 60px 60px;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: var(--black-code);
 }
 
 #footer_company_info {
@@ -22,7 +22,7 @@
 }
 
 .footer_menu_link {
-    color: white;
+    color: var(--black-code);;
     text-decoration: none;
 }
 
