@@ -11,3 +11,13 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 850px) {
+
+    #featureText {
+        width: 90%;
+    }
+}
+
+/* レスポンシブ設定ここまで */

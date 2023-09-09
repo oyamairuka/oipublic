@@ -11,6 +11,11 @@ body {
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+.video_iframe {
+    width: 560px;
+    height: 315px;
+}
+
 
 .center_box {
     display: block;
@@ -44,3 +49,13 @@ body {
     flex-wrap: wrap;
     justify-content: right;
 }
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 560px) {
+
+    .video_iframe {
+        width: 90%;
+    }
+}
+
+/* レスポンシブ設定ここまで */
