@@ -55,6 +55,7 @@ body {
 
     .video_iframe {
         width: 90%;
+        height: auto;
     }
 }
 
