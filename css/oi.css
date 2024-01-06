@@ -11,6 +11,19 @@ body {
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+.bg_base {
+    background-color: #f9f6f5;
+}
+
+.bg_main {
+    background-color: #BAE3CB;
+}
+
+.bg_another {
+    background-color: #ffffff;
+}
+
+
 .video_iframe {
     width: 560px;
     height: 315px;
@@ -24,6 +37,16 @@ body {
 
 .small_margin {
     margin: 10px 15px 10px 15px;
+}
+
+.width_max {
+    width: 100%;
+}
+
+.normal_text {
+    color: var(--black-code);
+    padding: 10px 15px 10px 15px;
+    font-size: 17px;
 }
 
 /* Flexbox設定 */
