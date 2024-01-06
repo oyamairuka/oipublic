@@ -1,4 +1,4 @@
-const companyName = "小山イルカ（イルカくん）のページ";
+const companyName = "小山ドドルのページ";
 const postalCode = "";
 const address = "";
-const copyright = "oyamairuka. All Rights Reserved.";
+const copyright = "oyamadodol. All Rights Reserved.";
