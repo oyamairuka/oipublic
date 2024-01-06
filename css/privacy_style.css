@@ -1,0 +1,15 @@
+#privacyText {
+    font-size: var(--font-size-medium);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 850px) {
+
+    #privacyText {
+        width: 90%;
+    }
+}
+
+/* レスポンシブ設定ここまで */
