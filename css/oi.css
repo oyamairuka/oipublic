@@ -4,6 +4,7 @@
     --font-size-medium: 18px;
     --font-size-small: 14px;
     --black-code: #333333;
+    --marker-code: #00ffff;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 .bg_another {
-    background-color: #ffffff;
+    background-color: #F4F5F7;
 }
 
 
@@ -43,10 +44,15 @@ body {
     width: 100%;
 }
 
-.normal_text {
+.song_title_text {
+    font-family: 'Dela Gothic One', cursive;
     color: var(--black-code);
     padding: 10px 15px 10px 15px;
-    font-size: 17px;
+    font-size: 32px;
+}
+
+.mark {
+    background: linear-gradient(transparent 40%, var(--marker-code) 80%);
 }
 
 /* Flexbox設定 */
